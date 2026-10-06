@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Intelligent Manpower Planning System for IT Support using semantic models, ontology, knowledge graphs, probabilistic graphical models, forecasting and AI agents.">
+  <title>Intelligent Manpower Planning for IT Support</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">Intelligent Manpower Planning</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#overview">Overview</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#semantic">Semantic Layer</a>
+        <a href="#pgm">PGM & Forecast</a>
+        <a href="#agent">AI Agent</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#files">Files</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">AI · Data Architecture · Workforce Planning</p>
+          <h1>Intelligent Manpower Planning for IT Support</h1>
+          <p class="lead">
+            <strong>A Knowledge-Driven and Probabilistic AI Approach.</strong><br>
+            A decision-support architecture that combines enterprise data,
+            a semantic model, ontology, knowledge graphs, forecasting,
+            probabilistic graphical models and an AI agent to support
+            skill-based and risk-aware manpower planning.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#roadmap">View implementation steps</a>
+          </div>
+
+          <div class="hero-tags" aria-label="Project themes">
+            <span>Semantic Model</span>
+            <span>Ontology</span>
+            <span>Knowledge Graph</span>
+            <span>Bayesian Network</span>
+            <span>Markov Network</span>
+            <span>Forecasting</span>
+            <span>AI Agent</span>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <p class="card-kicker">Core planning questions</p>
+          <ul class="check-list">
+            <li>How many employees are required?</li>
+            <li>Which skills and knowledge are required?</li>
+            <li>When are employees required?</li>
+            <li>Where are skill or capacity gaps?</li>
+            <li>Which shifts or periods are at risk?</li>
+            <li>Which actions should be recommended?</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="overview" class="section">
+      <div class="container">
+        <p class="section-label">01 · Overview</p>
+        <h2>From headcount planning to intelligent capacity planning</h2>
+        <p class="section-intro">
+          Traditional manpower planning often concentrates on the number of available employees.
+          This project extends the concept by considering skills, experience, system knowledge,
+          availability, incidents, workload, SLA risk and uncertainty.
+        </p>
+
+        <div class="three-col">
+          <article class="info-card">
+            <h3>Quantity</h3>
+            <p>Estimate the number of employees and support hours required for expected demand.</p>
+          </article>
+          <article class="info-card">
+            <h3>Qualification</h3>
+            <p>Match expected incidents and systems with the skills, experience and knowledge required.</p>
+          </article>
+          <article class="info-card">
+            <h3>Risk & timing</h3>
+            <p>Identify periods, shifts and skill areas where insufficient coverage may create operational or SLA risk.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="architecture" class="section alt">
+      <div class="container">
+        <p class="section-label">02 · Architecture</p>
+        <h2>Semantic Model → Ontology → Knowledge Graph</h2>
+        <p class="section-intro">
+          The semantic model provides business meaning, the ontology formalizes concepts and
+          relationships, and the knowledge graph connects actual enterprise entities and facts.
+          The analytical data platform remains the data foundation and should not be replaced by the graph.
+        </p>
+
+        <figure class="diagram-panel">
+          <img
+            src="images/Semantic_Model_Ontology_Knowledge_Graph.jpg"
+            alt="Semantic Model, Ontology and Knowledge Graph architecture for manpower planning"
+            loading="lazy">
+          <figcaption>
+            Existing project visualization:
+            <code>Semantic Model Ontology Konwledge Graph.jpg</code>
+          </figcaption>
+        </figure>
+
+        <div class="button-row">
+          <a class="button primary" href="diagrams/IT_Support_Manpower_Semantic_Model.drawio">
+            Open editable Draw.io diagram
+          </a>
+          <a class="button secondary" href="docs/semantic-model.md">
+            Read semantic architecture notes
+          </a>
+          <a class="button secondary" href="docs/semantic-model.md">
+            Power BI semantic model notes
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="semantic" class="section">
+      <div class="container">
+        <p class="section-label">03 · Semantic & Knowledge Layer</p>
+        <h2>Business meaning, formal concepts and connected enterprise context</h2>
+
+        <div class="layer-grid">
+          <article class="layer-card">
+            <span class="layer-number">01</span>
+            <h3>Semantic Model</h3>
+            <p>
+              Gives structured data a consistent business meaning and defines measures,
+              relationships and terminology such as incidents, capacity, utilization and SLA compliance.
+            </p>
+            <p class="tool-line"><strong>Possible technology:</strong> Power BI Semantic Model</p>
+          </article>
+
+          <article class="layer-card">
+            <span class="layer-number">02</span>
+            <h3>Ontology</h3>
+            <p>
+              Defines domain concepts, classifications and relationship rules such as
+              <code>Employee → hasSkill → Skill</code> and
+              <code>Incident → requiresSkill → Skill</code>.
+            </p>
+            <p class="tool-line"><strong>Possible technology:</strong> Protégé, OWL 2, RDF/RDFS, SHACL, RDFLib</p>
+          </article>
+
+          <article class="layer-card">
+            <span class="layer-number">03</span>
+            <h3>Knowledge Graph</h3>
+            <p>
+              Stores the actual facts and relationships required for skill-based planning:
+              employees, technologies, incidents, systems, projects, availability and SLAs.
+            </p>
+            <p class="tool-line"><strong>Possible technology:</strong> Neo4j / Cypher or RDF GraphDB / SPARQL</p>
+          </article>
+        </div>
+
+        <div class="flow">
+          <div>Enterprise Data</div><span>→</span>
+          <div>Semantic Model</div><span>→</span>
+          <div>Ontology</div><span>→</span>
+          <div>Knowledge Graph</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pgm" class="section alt">
+      <div class="container">
+        <p class="section-label">04 · Forecasting & Uncertainty</p>
+        <h2>Predict future demand and quantify planning risk</h2>
+        <p class="section-intro">
+          Forecasting estimates expected workload. Probabilistic Graphical Models add uncertainty,
+          dependencies and scenario analysis so planning is not based on a single deterministic number.
+        </p>
+
+        <div class="three-col">
+          <article class="info-card">
+            <h3>Forecasting</h3>
+            <p>Estimate incident volume, incident type, severity, workload, skill demand and required employee capacity.</p>
+            <p class="tool-line"><strong>Tools:</strong> Python, pandas, scikit-learn, statsmodels, XGBoost</p>
+          </article>
+          <article class="info-card">
+            <h3>Bayesian Networks</h3>
+            <p>Model directed probabilistic dependencies and calculate scenario probabilities under uncertainty.</p>
+            <p class="tool-line"><strong>Tools:</strong> pgmpy, PyMC or Pyro</p>
+          </article>
+          <article class="info-card">
+            <h3>Markov Networks</h3>
+            <p>Represent interactions between variables where a clear direction of influence is unnecessary or unknown.</p>
+            <p class="tool-line"><strong>Tools:</strong> pgmpy / Python</p>
+          </article>
+        </div>
+
+        <div class="risk-example">
+          <p class="card-kicker">Example output</p>
+          <div class="metric-grid">
+            <div><strong>65%</strong><span>Probability of high incident volume</span></div>
+            <div><strong>40%</strong><span>Probability of database skill shortage</span></div>
+            <div><strong>30%</strong><span>Probability of SLA risk</span></div>
+          </div>
+          <p class="fine-print">Illustrative example from the project concept — not measured production results.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="agent" class="section">
+      <div class="container">
+        <p class="section-label">05 · AI Agent</p>
+        <h2>Diagnose, explain and recommend — with human approval</h2>
+        <p class="section-intro">
+          The AI Agent is the decision-support and orchestration layer. It does not replace the
+          Knowledge Graph, forecasting models or PGMs. Instead, it combines their outputs to interpret
+          the situation and recommend an action.
+        </p>
+
+        <div class="agent-flow">
+          <div class="agent-source">
+            <h3>Knowledge Graph</h3>
+            <p>Enterprise context, skills, systems, incidents, employees, availability and relationships.</p>
+          </div>
+          <div class="agent-source">
+            <h3>Forecast + PGM</h3>
+            <p>Predicted workload, probability, uncertainty, scenario risk and future skill demand.</p>
+          </div>
+          <div class="agent-core">
+            <span>AI Agent</span>
+            <ul>
+              <li>Diagnose the problem</li>
+              <li>Explain likely causes</li>
+              <li>Identify capacity / skill gaps</li>
+              <li>Evaluate SLA risk</li>
+              <li>Recommend possible actions</li>
+            </ul>
+          </div>
+          <div class="agent-human">
+            <strong>Human Approval</strong>
+            <span>→ controlled planning action</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap" class="section alt">
+      <div class="container">
+        <p class="section-label">06 · Implementation Roadmap</p>
+        <h2>Steps that have to be fulfilled</h2>
+        <p class="section-intro">
+          The following eleven steps are taken directly from the existing <code>ToDos.md</code>.
+          They are shown as open implementation steps; detailed sub-tasks, technology choices and deliverables
+          remain documented in the original ToDo file.
+        </p>
+
+        <div class="roadmap">
+          <article class="step-card">
+            <div class="step-top"><span class="step-no">STEP 01</span><span class="status todo">TO DO</span></div>
+            <h3>Define the Ontology</h3>
+            <p>Define the manpower-planning domain, classes, hierarchies, properties, skills, incidents, roles, SLAs, shifts and validation scenarios.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-top"><span class="step-no">STEP 02</span><span class="status todo">TO DO</span></div>
+            <h3>Find and Evaluate Open Data</h3>
+            <p>Identify reusable HR, skills, incident, performance, workload and support datasets and evaluate quality, licensing and fitness for the PoC.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-top"><span class="step-no">STEP 03</span><span class="status todo">TO DO</span></div>
+            <h3>Strategy for Recurring Updates</h3>
+            <p>Define update frequencies, incremental loads, CDC, error handling, retries, quality checks, logging, monitoring and model refresh.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-top"><span class="step-no">STEP 04</span><span class="status todo">TO DO</span></div>
+            <h3>Define the Data Foundation for the Knowledge Graph</h3>
+            <p>Design landing, curated and analytical layers and define stable keys, history, lineage, retention and the graph export interface.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-top"><span class="step-no">STEP 05</span><span class="status todo">TO DO</span></div>
+            <h3>Define and Build the Knowledge Graph</h3>
+            <p>Map ontology concepts to graph nodes and relationships, load enterprise entities and build queries for skill gaps and dependencies.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-top"><span class="step-no">STEP 06</span><span class="status todo">TO DO</span></div>
+            <h3>Define Bayesian Networks</h3>
+            <p>Identify variables and directed dependencies, learn probabilities, test inference and validate scenario analysis against historical periods.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-top"><span class="step-no">STEP 07</span><span class="status todo">TO DO</span></div>
+            <h3>Define Markov Networks</h3>
+            <p>Model non-directional interactions among workload, capacity, system conditions and SLA risk where causal direction is not required.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-top"><span class="step-no">STEP 08</span><span class="status todo">TO DO</span></div>
+            <h3>Combine Knowledge Graph + PGM</h3>
+            <p>Connect enterprise context with probabilistic reasoning so the system can answer both what is connected and what is likely to happen.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-top"><span class="step-no">STEP 09</span><span class="status todo">TO DO</span></div>
+            <h3>Perform Forecast Calculations</h3>
+            <p>Forecast incident volume, severity, resolution workload, required skills and employee capacity for future planning periods.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-top"><span class="step-no">STEP 10</span><span class="status todo">TO DO</span></div>
+            <h3>Define Actions and Recommendations</h3>
+            <p>Translate forecasted capacity and skill gaps into concrete, explainable planning options and recommended actions.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-top"><span class="step-no">STEP 11</span><span class="status todo">TO DO</span></div>
+            <h3>Define an AI Agent for Diagnosis and Recommended Actions</h3>
+            <p>Use Knowledge Graph context, forecasts and PGM outputs to diagnose problems, explain risks and recommend controlled actions.</p>
+          </article>
+        </div>
+
+        <div class="roadmap-link">
+          <a class="button primary" href="roadmap.md">Open complete ToDos.md</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="files" class="section alt">
+      <div class="container">
+        <p class="section-label">07 · Project Files</p>
+        <h2>Public documentation, diagrams and project assets</h2>
+
+        <div class="file-grid">
+          <a class="file-card" href="README.md">
+            <span class="file-type">MD</span>
+            <div><strong>README</strong><small>Public project overview and architecture</small></div>
+          </a>
+
+          <a class="file-card" href="roadmap.md">
+            <span class="file-type">MD</span>
+            <div><strong>Public Roadmap</strong><small>Eleven major implementation steps</small></div>
+          </a>
+
+          <a class="file-card" href="diagrams/IT_Support_Manpower_Semantic_Model.drawio">
+            <span class="file-type">DRAWIO</span>
+            <div><strong>Semantic Model Diagram</strong><small>Editable Draw.io architecture file</small></div>
+          </a>
+
+          <a class="file-card" href="images/Semantic_Model_Ontology_Knowledge_Graph.jpg">
+            <span class="file-type">JPG</span>
+            <div><strong>Architecture Picture</strong><small>Semantic Model, Ontology and Knowledge Graph</small></div>
+          </a>
+
+          <a class="file-card" href="docs/semantic-model.md">
+            <span class="file-type">MD</span>
+            <div><strong>Semantic Model</strong><small>Business meaning and ontology input</small></div>
+          </a>
+
+          <a class="file-card" href="docs/ontology.md">
+            <span class="file-type">MD</span>
+            <div><strong>Ontology</strong><small>Formal domain concepts and relationships</small></div>
+          </a>
+
+          <a class="file-card" href="docs/knowledge-graph.md">
+            <span class="file-type">MD</span>
+            <div><strong>Knowledge Graph</strong><small>Enterprise context and relationships</small></div>
+          </a>
+
+          <a class="file-card" href="docs/pgm.md">
+            <span class="file-type">MD</span>
+            <div><strong>Probabilistic Models</strong><small>Bayesian and Markov network concepts</small></div>
+          </a>
+
+          <a class="file-card" href="docs/ai-agent.md">
+            <span class="file-type">MD</span>
+            <div><strong>AI Agent</strong><small>Diagnosis, explanation and recommendations</small></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section next-section">
+      <div class="container">
+        <p class="section-label">09 · Next Direction</p>
+        <h2>Target end-to-end decision path</h2>
+        <div class="end-flow">
+          <span>Enterprise Data</span>
+          <b>→</b>
+          <span>Semantic Context</span>
+          <b>→</b>
+          <span>Knowledge Graph</span>
+          <b>→</b>
+          <span>Forecast + PGM</span>
+          <b>→</b>
+          <span>AI Agent</span>
+          <b>→</b>
+          <span>Human Approval</span>
+          <b>→</b>
+          <span>Planning Action</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div>
+        <strong>Intelligent Manpower Planning for IT Support</strong>
+        <p>Intelligent, explainable and skill-aware IT support workforce planning.</p>
+      </div>
+      <div class="footer-links">
+        <a href="README.md">README</a>
+        <a href="roadmap.md">ToDos</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

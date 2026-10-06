@@ -1,0 +1,123 @@
+<mxfile host="Electron" agent="ChatGPT">
+  <diagram id="semantic-model-redesigned" name="Semantic Model - Readable">
+    <mxGraphModel dx="2828" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=32;fontStyle=1;fontColor=#0B1F3A;" value="IT Support Manpower Planning – Semantic Model" vertex="1">
+          <mxGeometry height="50" width="2000" x="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="head_people" parent="1" style="rounded=1;html=1;fillColor=#3A8D3A;strokeColor=#3A8D3A;fontColor=#FFFFFF;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" value="PEOPLE &amp; ORGANIZATION" vertex="1">
+          <mxGeometry height="42" width="430" x="60" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="head_core" parent="1" style="rounded=1;html=1;fillColor=#1F78B4;strokeColor=#1F78B4;fontColor=#FFFFFF;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" value="CORE BUSINESS EVENTS" vertex="1">
+          <mxGeometry height="42" width="530" x="750" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="head_context" parent="1" style="rounded=1;html=1;fillColor=#D6A100;strokeColor=#D6A100;fontColor=#FFFFFF;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" value="BUSINESS CONTEXT &amp; PLANNING DIMENSIONS" vertex="1">
+          <mxGeometry height="42" width="980" x="1550" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="employee" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#3A8D3A;strokeWidth=2;align=left;verticalAlign=top;spacing=16;fontColor=#243447;fontSize=15;shadow=0;" value="&lt;div style=&quot;font-size:20px;font-weight:700;color:#3A8D3A;margin-bottom:10px;&quot;&gt;EMPLOYEE&lt;/div&gt;&lt;div style=&quot;font-size:15px;line-height:1.35;color:#243447;&quot;&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Staff Number&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Employee Name&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Assignment Group Code&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Assignment Group Level&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Assignment Group&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="390" x="80" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="knowledge" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#3A8D3A;strokeWidth=2;align=left;verticalAlign=top;spacing=16;fontColor=#243447;fontSize=15;shadow=0;" value="&lt;div style=&quot;font-size:20px;font-weight:700;color:#3A8D3A;margin-bottom:10px;&quot;&gt;EMPLOYEE KNOWLEDGE / SKILLS&lt;/div&gt;&lt;div style=&quot;font-size:15px;line-height:1.35;color:#243447;&quot;&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Knowledge / Skill&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Employee ↔ Skill&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Example: Scanner Hardware&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Example: Software Retail&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Example: Ticketing Software&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="390" x="80" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="assignment" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#3A8D3A;strokeWidth=2;align=left;verticalAlign=top;spacing=16;fontColor=#243447;fontSize=15;shadow=0;" value="&lt;div style=&quot;font-size:20px;font-weight:700;color:#3A8D3A;margin-bottom:10px;&quot;&gt;ASSIGNMENT GROUP&lt;/div&gt;&lt;div style=&quot;font-size:15px;line-height:1.35;color:#243447;&quot;&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Group Code&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Support Level&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Functional Group&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Help Desk&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Client Hardware&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Application&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Service On Site&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="390" x="80" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="person" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#3A8D3A;strokeWidth=2;align=left;verticalAlign=top;spacing=16;fontColor=#243447;fontSize=15;shadow=0;" value="&lt;div style=&quot;font-size:20px;font-weight:700;color:#3A8D3A;margin-bottom:10px;&quot;&gt;USER / REQUESTER&lt;/div&gt;&lt;div style=&quot;font-size:15px;line-height:1.35;color:#243447;&quot;&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• User&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Secondary User&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Initiated By&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Requester / Stakeholder Role&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="390" x="80" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="ticket" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F0FA;strokeColor=#1F78B4;strokeWidth=2;align=left;verticalAlign=top;spacing=16;fontColor=#243447;fontSize=15;shadow=0;" value="&lt;div style=&quot;font-size:20px;font-weight:700;color:#1F78B4;margin-bottom:10px;&quot;&gt;TICKET / CASE&lt;/div&gt;&lt;div style=&quot;font-size:15px;line-height:1.35;color:#243447;&quot;&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Case ID&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Ticket Type&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Priority&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Size&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Company&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Source&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Initiated By&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Department&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Service&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Classification&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Ticket Title / Description&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Case State&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="430" width="470" x="780" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="event" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F0FA;strokeColor=#1F78B4;strokeWidth=2;align=left;verticalAlign=top;spacing=16;fontColor=#243447;fontSize=15;shadow=0;" value="&lt;div style=&quot;font-size:20px;font-weight:700;color:#1F78B4;margin-bottom:10px;&quot;&gt;EVENT / ACTIVITY&lt;/div&gt;&lt;div style=&quot;font-size:15px;line-height:1.35;color:#243447;&quot;&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Event ID / Activity&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• DateTime Start&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• DateTime End&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Event State&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Activity Status&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Activity Description&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Employee Operator&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Secondary User&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Workdays / Duration&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Needed Knowledge&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Needed Resources&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Closure Code&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="440" width="470" x="780" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="company" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#D6A100;strokeWidth=2;align=left;verticalAlign=top;spacing=16;fontColor=#243447;fontSize=15;shadow=0;" value="&lt;div style=&quot;font-size:20px;font-weight:700;color:#D6A100;margin-bottom:10px;&quot;&gt;COMPANY / CUSTOMER&lt;/div&gt;&lt;div style=&quot;font-size:15px;line-height:1.35;color:#243447;&quot;&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Company ID&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Company Name&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Customer / Business Context&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="410" x="1580" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="service" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#D6A100;strokeWidth=2;align=left;verticalAlign=top;spacing=16;fontColor=#243447;fontSize=15;shadow=0;" value="&lt;div style=&quot;font-size:20px;font-weight:700;color:#D6A100;margin-bottom:10px;&quot;&gt;SERVICE / SYSTEM&lt;/div&gt;&lt;div style=&quot;font-size:15px;line-height:1.35;color:#243447;&quot;&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Service&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Affected Business Service&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Example: POS Cashier Payment&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Department Initiated&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="240" width="410" x="1580" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="classification" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#D6A100;strokeWidth=2;align=left;verticalAlign=top;spacing=16;fontColor=#243447;fontSize=15;shadow=0;" value="&lt;div style=&quot;font-size:20px;font-weight:700;color:#D6A100;margin-bottom:10px;&quot;&gt;TICKET CLASSIFICATION&lt;/div&gt;&lt;div style=&quot;font-size:15px;line-height:1.35;color:#243447;&quot;&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Ticket Type&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Classification&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Priority&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Size&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Source&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="410" x="1580" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="states" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E0;strokeColor=#D6A100;strokeWidth=2;align=left;verticalAlign=top;spacing=16;fontColor=#243447;fontSize=15;shadow=0;" value="&lt;div style=&quot;font-size:20px;font-weight:700;color:#D6A100;margin-bottom:10px;&quot;&gt;STATUS / STATE&lt;/div&gt;&lt;div style=&quot;font-size:15px;line-height:1.35;color:#243447;&quot;&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Event State&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Ticket State / Case State&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Activity Status&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Open / In Progress / Closed&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Assigned / Begin / End&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="410" x="1580" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="resources" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#6A9F37;strokeWidth=2;align=left;verticalAlign=top;spacing=16;fontColor=#243447;fontSize=15;shadow=0;" value="&lt;div style=&quot;font-size:20px;font-weight:700;color:#6A9F37;margin-bottom:10px;&quot;&gt;RESOURCE / KNOWLEDGE NEED&lt;/div&gt;&lt;div style=&quot;font-size:15px;line-height:1.35;color:#243447;&quot;&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Solution Needed Knowledge&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Solution Needed Resources&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Required Tools / Hardware&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Required Competency&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="420" x="2080" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="date" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#6A9F37;strokeWidth=2;align=left;verticalAlign=top;spacing=16;fontColor=#243447;fontSize=15;shadow=0;" value="&lt;div style=&quot;font-size:20px;font-weight:700;color:#6A9F37;margin-bottom:10px;&quot;&gt;DATE / TIME&lt;/div&gt;&lt;div style=&quot;font-size:15px;line-height:1.35;color:#243447;&quot;&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Start Date / Time&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• End Date / Time&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Day / Week / Month&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Season / Peak Period&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Shift / Time Window&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="420" x="2080" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="measures" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2E9F7;strokeColor=#8E5EA2;strokeWidth=2;align=left;verticalAlign=top;spacing=16;fontColor=#243447;fontSize=15;shadow=0;" value="&lt;div style=&quot;font-size:20px;font-weight:700;color:#8E5EA2;margin-bottom:10px;&quot;&gt;BUSINESS MEASURES / KPIs&lt;/div&gt;&lt;div style=&quot;font-size:15px;line-height:1.35;color:#243447;&quot;&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Incident / Ticket Volume&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Activity Duration / Workdays&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Average Resolution Time&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Workload by Skill / Group&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Employee Utilization&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Available Capacity&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Required Manpower&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• SLA / Response Risk&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Seasonal Demand / Peak Load&lt;/div&gt;&lt;div style=&quot;margin:5px 0;&quot;&gt;• Skill Gap / Capacity Gap&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="330" width="1320" x="620" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="employee" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B778D;strokeWidth=1.6;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="event" value="performs / operates">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="employee" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B778D;strokeWidth=1.6;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="assignment" value="belongs to">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="employee" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B778D;strokeWidth=1.6;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="knowledge" value="has skill">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="knowledge" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;strokeColor=#8E5EA2;strokeWidth=1.6;dashed=1;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="resources" value="matches required knowledge">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="assignment" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B778D;strokeWidth=1.6;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="event" value="assigned group">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="person" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B778D;strokeWidth=1.6;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="ticket" value="creates / requests">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="person" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B778D;strokeWidth=1.6;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="event" value="participates">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="ticket" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B778D;strokeWidth=1.6;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="event" value="1 case → many events">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="company" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B778D;strokeWidth=1.6;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="ticket" value="owns / affected customer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="service" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B778D;strokeWidth=1.6;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="ticket" value="service affected">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="classification" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B778D;strokeWidth=1.6;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="ticket" value="classifies">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="states" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B778D;strokeWidth=1.6;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="ticket" value="ticket state">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="states" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B778D;strokeWidth=1.6;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="event" value="event / activity state">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="resources" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B778D;strokeWidth=1.6;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="event" value="required by activity">
+          <mxGeometry relative="1" x="-0.0001" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="date" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B778D;strokeWidth=1.6;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="event" value="occurs during">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="ticket" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;strokeColor=#8E5EA2;strokeWidth=1.6;dashed=1;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="measures" value="drives KPIs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="event" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;strokeColor=#8E5EA2;strokeWidth=1.6;dashed=1;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="measures" value="drives workload">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="employee" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;strokeColor=#8E5EA2;strokeWidth=1.6;dashed=1;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="measures" value="capacity / utilization">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" source="date" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;strokeColor=#8E5EA2;strokeWidth=1.6;dashed=1;fontSize=13;fontColor=#34495E;labelBackgroundColor=#FFFFFF;labelBorderColor=#D9D9D9;" target="measures" value="seasonality / peak load">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#A6A6A6;strokeWidth=1.5;fontColor=#404040;fontSize=14;align=left;verticalAlign=middle;spacing=14;" value="&lt;b&gt;How to read this model:&lt;/b&gt; Blue = core business events; green = people/skills/resources; yellow = business context and descriptive dimensions; purple = derived planning measures. All labels and attributes are intentionally kept inside the colored rectangles so the model remains readable without opening or clicking a shape." vertex="1">
+          <mxGeometry height="210" width="500" x="2030" y="1250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
