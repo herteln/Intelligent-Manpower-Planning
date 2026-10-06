@@ -1,3 +1,10 @@
+
+## Author
+
+**Nicole Hertel-Pirner**
+
+Concept, architecture, and project development for the  
+
 # Intelligent Manpower Planning for IT Support
 
 ## A Knowledge-Driven and Probabilistic AI Approach
