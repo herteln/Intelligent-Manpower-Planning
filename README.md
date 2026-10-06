@@ -1,7 +1,7 @@
+**Author:** Nicole Hertel-Pirner
 
-## Author
+---
 
-**Nicole Hertel-Pirner**
 
 Concept, architecture, and project development for the  
 
